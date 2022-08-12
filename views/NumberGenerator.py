@@ -1,6 +1,6 @@
 from typing import List
 
-from views.query_parameters import get_query_params
+from query_parameters import get_query_params
 from urllib import response
 import requests
 
