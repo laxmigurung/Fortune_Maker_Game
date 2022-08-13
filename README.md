@@ -8,13 +8,4 @@
 - url to get the computer guess value: https://www.random.org/integers 
 
 
-# Flask framework for the game.
-- export FLASK_APP=view.py
-- export FLASK_ENV=development
-- flask run
-- write error handling code
-- look into accessing db for user input
 
-
-# API
-https://stackoverflow.com/questions/61236246/manipulating-the-values-of-html-elements-using-flask

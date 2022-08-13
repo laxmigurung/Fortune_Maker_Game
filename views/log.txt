@@ -1,0 +1,6 @@
+2022-08-12 11:54:26,375 invalid literal for int() with base 10: 'dfs'
+2022-08-12 11:54:57,097 invalid literal for int() with base 10: 'sdfs'
+2022-08-12 11:55:41,490 invalid literal for int() with base 10: 'fhj'
+2022-08-12 12:00:13,244 invalid literal for int() with base 10: 'cgfj'
+2022-08-12 12:03:16,549 invalid literal for int() with base 10: 'hcvk'
+2022-08-12 12:04:43,955 - root - WARNING - invalid literal for int() with base 10: 'monhv'
