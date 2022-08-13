@@ -1,5 +1,6 @@
-from mysql.connector import MySQLConnection, Error
 from database.dbconfig import read_db_config
+from log import log_error
+from mysql.connector import MySQLConnection, Error
 
 
 def connect():
@@ -16,8 +17,8 @@ def connect():
         else:
             print('Connection failed.')
 
-    except Error as error:
-        print(error)
+    except Error as e:
+        log_error(e)
 
     finally:
         if conn is not None and conn.is_connected():

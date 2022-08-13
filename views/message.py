@@ -23,10 +23,3 @@ def winner():
 
 def good_bye():
     print("Thank you for playing!!!")
-
-
-
-for i in range(4):
-    player_guess_number = int(input(f"Enter Number {enumerate(i)}:"))
-    print(player_guess_number)
-
