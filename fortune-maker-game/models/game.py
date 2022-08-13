@@ -1,14 +1,10 @@
-from typing import List
-
+from game_level import Level
 from hint import level_hard_hint, level_medium_hint
+from message import good_bye, welcome
+from modify_tables import insert_player, insert_score_board
+from player_info import player_guess, game_players, get_player_info
 
-from views.game_level import Level
-from views.message import good_bye, welcome, winner
-from views.player import player_guess, game_players
-from views.number_generator import NumberGenerator
-
-import random
-
+import number_generator
 """
 easy_level, medium_level, hard_level: Created object of Level class with the instance attributes.
 
@@ -22,10 +18,15 @@ levels = [easy_level, medium_level, hard_level]
 
 def start_game():
     welcome()
+    player = get_player_info()
+    insert_player(player[0], player[1])
+    player_name = player[0]
+    user_input = []
+
     for game in levels:
-        print(f"Beginning {game.level} level.... ")
+        print(f"Hi {player_name}, beginning {game.level} level.... ")
         print("********************************************")
-        computer_number = NumberGenerator.computer_guess()
+        computer_number = number_generator.computer_guess()
         print(computer_number)
         player_number = player_guess()
         game.attempts -= 1
@@ -52,6 +53,7 @@ def start_game():
                     print(player_number)
                     continue
     else:
+        insert_score_board(game.level, game.points, game.prize_amount, )
         good_bye()
 
 

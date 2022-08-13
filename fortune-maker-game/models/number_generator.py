@@ -1,6 +1,6 @@
 from log import log_error
-
 from typing import List
+
 import requests
 
 

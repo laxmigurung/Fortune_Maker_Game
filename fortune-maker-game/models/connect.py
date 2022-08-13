@@ -1,4 +1,4 @@
-from database.dbconfig import read_db_config
+from dbconfig import read_db_config
 from log import log_error
 from mysql.connector import MySQLConnection, Error
 

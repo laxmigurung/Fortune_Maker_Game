@@ -1,6 +1,8 @@
 """
 
 """
+
+
 class Level:
     def __init__(self, level, points, attempts, prize_amount, total_hint):
         self.level = level
