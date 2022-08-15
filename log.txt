@@ -1,6 +1,201 @@
-2022-08-12 11:54:26,375 invalid literal for int() with base 10: 'dfs'
-2022-08-12 11:54:57,097 invalid literal for int() with base 10: 'sdfs'
-2022-08-12 11:55:41,490 invalid literal for int() with base 10: 'fhj'
-2022-08-12 12:00:13,244 invalid literal for int() with base 10: 'cgfj'
-2022-08-12 12:03:16,549 invalid literal for int() with base 10: 'hcvk'
-2022-08-12 12:04:43,955 - root - WARNING - invalid literal for int() with base 10: 'monhv'
+2022-08-14 01:03:15,944 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 01:03:15,982 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:03:16,461 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:04:48,346 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:04:48,821 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:05:34,132 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 01:05:34,140 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:05:34,712 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:05:51,228 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:05:51,812 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:06:43,384 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 01:06:43,390 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:06:43,935 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:10:41,629 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:10:42,218 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:28:05,130 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 01:28:05,166 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:28:05,672 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:29:12,211 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:29:12,702 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:29:34,998 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:29:35,582 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:30:52,444 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 01:30:52,457 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:30:53,103 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:30:59,860 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:31:00,357 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:31:05,388 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:31:05,875 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:31:50,389 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 01:31:50,397 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:31:50,957 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:31:55,544 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:31:56,075 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:32:06,539 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:32:07,030 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:40:43,694 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 01:40:43,734 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:40:44,266 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:40:49,772 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:40:50,268 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:40:53,998 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:40:54,609 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:44:48,316 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 01:44:48,352 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:44:48,897 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:45:22,427 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:45:23,004 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:48:22,317 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 01:48:22,334 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:48:22,890 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:49:53,019 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 01:49:53,051 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:49:53,616 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 01:53:38,138 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 01:53:38,170 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 01:53:38,690 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 02:05:00,093 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 02:05:00,132 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 02:05:00,677 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 02:05:44,312 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 02:05:44,320 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 02:05:44,914 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 02:06:03,638 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 02:06:04,268 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 02:08:22,583 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 02:08:23,121 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 10:04:43,681 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 10:04:43,718 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 10:04:44,321 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 10:19:29,338 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 10:19:29,374 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 10:19:29,865 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 10:24:33,739 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 10:24:33,774 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 10:24:34,324 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 10:26:35,230 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 10:26:35,264 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 10:26:35,863 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 10:41:03,255 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 10:41:03,387 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 10:41:03,889 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 10:44:34,239 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 10:44:34,251 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 10:44:34,751 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 10:46:29,380 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 10:46:29,416 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 10:46:29,893 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 11:00:39,051 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 11:00:39,090 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 11:00:39,623 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 11:02:45,683 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 11:02:45,692 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 11:02:46,235 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 11:03:03,970 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 11:03:04,585 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 11:04:13,992 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 11:04:14,629 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 11:06:12,113 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 11:06:12,143 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 11:06:12,700 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 11:11:14,787 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 11:11:14,822 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 11:11:15,353 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 11:12:14,023 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 11:12:14,030 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 11:12:14,583 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 11:12:54,809 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 11:12:54,818 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 11:12:55,441 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 11:14:22,491 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 11:14:22,527 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 11:14:23,097 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 12:53:29,478 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 12:53:29,516 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 12:53:30,053 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 12:54:29,324 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 12:54:29,333 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 12:54:29,855 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 12:55:03,021 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 12:55:03,544 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 12:55:30,923 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 12:55:30,931 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 12:55:31,441 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 12:55:46,400 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 12:55:46,963 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 12:59:23,401 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 12:59:23,438 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 12:59:23,952 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 12:59:40,017 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 12:59:40,535 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:01:10,551 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 13:01:10,560 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:01:11,063 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:02:05,760 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:02:06,257 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:02:55,155 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 13:02:55,163 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:02:55,662 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:03:01,784 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:03:02,286 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:06:48,940 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 13:06:48,979 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:06:49,476 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:06:53,197 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:06:53,697 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:08:50,795 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 13:08:50,804 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:08:51,358 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:08:57,300 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:08:57,792 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:09:31,266 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 13:09:31,278 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:09:31,804 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:09:45,737 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:09:46,243 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:10:22,692 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 13:10:22,701 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:10:23,209 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:10:26,695 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:10:27,203 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:11:29,753 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 13:11:29,761 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:11:30,283 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:14:34,832 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 13:14:34,868 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:14:35,424 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:16:04,784 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:16:05,335 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:17:56,070 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 13:17:56,078 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:17:56,644 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:18:02,436 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 13:18:02,935 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 13:20:11,128 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 13:21:06,331 - root - WARNING - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 13:48:28,298 - root - DEBUG - 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', player_id, level INT, points INT, prize_amount INT, date_time TIMESTAMP NOT NU' at line 1
+2022-08-14 13:51:09,338 - root - DEBUG - 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', player_id, level INT, points INT, prize_amount INT, date_time TIMESTAMP NOT NU' at line 1
+2022-08-14 14:12:33,332 - root - DEBUG - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 14:12:33,367 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 14:12:33,857 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 14:12:38,637 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 14:12:39,151 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 14:13:49,677 - root - DEBUG - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 14:14:25,048 - root - DEBUG - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 14:16:14,267 - root - DEBUG - 1364 (HY000): Field 'account_created' doesn't have a default value
+2022-08-14 14:18:06,192 - root - DEBUG - Not all parameters were used in the SQL statement
+2022-08-14 14:18:06,229 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 14:18:06,764 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 14:18:12,005 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 14:18:12,526 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 14:19:34,606 -
+2022-08-14 14:19:34,613 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 14:19:35,100 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 14:19:38,502 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 14:19:39,025 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 14:21:33,309 - root - DEBUG - Not all parameters were used in the SQL statement
+2022-08-14 14:21:33,345 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 14:21:33,921 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
+2022-08-14 14:21:41,505 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.random.org:443
+2022-08-14 14:21:42,073 - urllib3.connectionpool - DEBUG - https://www.random.org:443 "GET /integers/?num=4&min=0&max=7&col=1&base=10&format=plain&rnd=rnd HTTP/1.1" 200 8
