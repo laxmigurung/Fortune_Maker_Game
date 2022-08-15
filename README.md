@@ -9,11 +9,17 @@ Created a Fortune Maker Game. This is game is played against computer. Computer
 generates four number combination between 0 and 7. Similarly, player gets to guess the 
 number that computer generated following all the requirements to guess.
 
+# Focuses
+- This game is played in CLI, with different font colors to make it a bit colorful for the eyes. 
+- Player accesses to the game by inputing their username and email. 
+
 There is two level is this game.
 1. Land (easier than sky)
 2. Sky
 
 Each level contains few attempts and player also gets hint option to guess.
+- Land : This level, player gets hint that displays the computer number with the position.
+-Sky: This level, player gets hint that indicates particular position contains either even orr odd number.
 
 # All the requirements for the program to successfully run are listed in requirements.txt file.
 
