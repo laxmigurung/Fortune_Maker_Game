@@ -1,5 +1,5 @@
-from database.dbconfig import read_db_config
-from log import log_error
+from models.dbconfig import read_db_config
+from models.log import log_error
 from mysql.connector import MySQLConnection, Error
 
 
