@@ -3,6 +3,10 @@ from typing import List
 
 import requests
 
+"""This file contains all the required functions to generate the computer number from the website 
+"https://www.random.org/integers/" .
+
+"""
 
 class QueryParameters:
     def __init__(self, num, min, max, col, base, format, rnd):
@@ -38,6 +42,12 @@ class Computer:
 
     def computer_value(self):
         return self.value
+
+
+"""
+: params website: contains the url that generates the computer number for the game.
+: params random_number: stores the random generated number
+"""
 
 
 def computer_guess() -> List[str]:
