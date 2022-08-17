@@ -1,8 +1,8 @@
 from colorama import Fore
 
 from datetime import datetime
-from message import good_bye, welcome, winner
-from modify_tables import insert_player, insert_score_board, connect_db
+from message import good_bye, welcome
+from modify_tables import insert_player, insert_score_board
 from player_info import player_guess, game_players, get_player_info
 
 import number_generator
@@ -24,7 +24,7 @@ class Level:
 """
 
 land_level = Level("land", 0, 5, "1 million dollar", 2)
-sky_level = Level("sky", 0, 8, "5 million dollar", 5)
+sky_level = Level("sky", 0, 8, "5 million dollar", 4)
 
 levels = [land_level, sky_level]
 
@@ -42,7 +42,7 @@ def get_game_info():
     player = get_player_info()
     player_name, player_email = player[0], player[1]
     date_start = datetime.now()
-    # insert_player(player_name, player_email, date_start)
+    #insert_player(player_name, player_email, date_start)
     start_game(player_name, date_start)
 
 
@@ -75,12 +75,14 @@ def start_game(player_name, date_start):
         game.attempts -= 1
         count_numbers, count_position = game_players(computer_number, player_number)
         print(Fore.LIGHTRED_EX + f"Correct Numbers:  {count_numbers} Correct Position: {count_position}")
-        if(count_numbers == 1 or 2 or 3 or 4) and count_position == 4:
-            winner()
+        if (count_numbers == 1 or 2 or 3 or 4) and count_position == 4:
+            print(f"Congratulations!! You completed level {game.level}")
+            print(f"Hurray!! You won {game.prize_amount}")
+            user_input.clear()
             continue
             if game.level == 'sky':
                 good_bye()
-                break
+                exit()
 
         print(f"Attempt Left: {game.attempts}")
         print(Fore.GREEN + "********************************************")
@@ -90,14 +92,21 @@ def start_game(player_name, date_start):
         hint_list = [0, 1, 2, 3]
 
         while guess is False and game.attempts != 0:
-            ask_help = input(Fore.GREEN + "Do you need hint? Type 'y' for YES || type anything for NO ::  ")
-            if (ask_help == 'y' or 'Y') and game.total_hint != 0:
-                game.total_hint -= 1
-                game_hint(computer_number, game.level, hint_list)
-                print(Fore.YELLOW + f"Hint Available: {game.total_hint}")
+            if game.total_hint > 0:
+                ask_help = input(Fore.GREEN + "Do you need hint? Type 'y' for YES || type anything for NO ::  ")
+                print(Fore.YELLOW + f"Hint Available Before hint: {game.total_hint}")
+                if ask_help == 'y':
+                    game.total_hint -= 1
+                    game_hint(computer_number, game.level, hint_list)
+                    print(Fore.YELLOW + f"Hint Available: {game.total_hint}")
             elif game.total_hint == 0:
                 print(Fore.YELLOW + "No Hint Available")
 
+            elif game.attempts == 0:
+                print("You Lost")
+                good_bye()
+                exit()
+            print(Fore.RED + f"Attempt Left: {game.attempts}")
             print(Fore.BLUE + "Guess again.....")
             player_number = player_guess()
             user_input.append(player_number)
@@ -105,28 +114,39 @@ def start_game(player_name, date_start):
             print(Fore.GREEN + "********************************************")
             print(Fore.YELLOW + f"Correct Numbers:  {count_numbers} Correct Position: {count_position}")
             if (count_numbers == 1 or 2 or 3 or 4) and count_position == 4:
-                winner()
-                guess = True
+                print(f"Congratulations!! You completed level {game.level}")
+                print(f"Hurray!! You won {game.prize_amount}")
+                user_input.clear()
+                if game.level == 'sky':
+                    good_bye()
+                    exit()
+                else:
+                    guess = True
             game.attempts -= 1
             print(Fore.RED + f"Attempt Left: {game.attempts}")
             print(Fore.GREEN + "********************************************")
             print("YOU ENTERED")
             print_user_input(user_input)
             print(Fore.GREEN + "********************************************")
-            compare(player_number, computer_number, game.points, user_input, game.prize_amount)
+            """if game.attempts == 0:
+                print("You Lost")
+                good_bye()
+                exit()"""
+            compare(player_number, computer_number, game.points, game.prize_amount)
             total_points += 1
+        else:
+            print("I am here")
 
             # insert_score_board(1, 1, game.level, game.points, game.prize_amount, date_start)
 
 
 # Comparing player's guess to computer number,if this is true, it will take you to next SKY level. If false,
 # Performed while loop to let player guess the number,until it matches with computer or no attempts left.
-def compare(player_num, comp_num, points, user_input, amount):
+def compare(player_num, comp_num, points, amount):
     if player_num == comp_num:
         print(Fore.BLUE + f"Congratulations! You won {amount}.")
         points += 1
         print(Fore.YELLOW + f"Your points: {points}")
-        user_input.clear()
 
 
 def game_hint(computer_number, level, hint_list):
@@ -140,10 +160,12 @@ def game_hint(computer_number, level, hint_list):
         position = random.choice(hint_list)
         hint_number = computer_number[position]
         if int(hint_number) % 2 == 0:
-            print(Fore.LIGHTMAGENTA_EX + f"{computer_number.index(hint_number) + 1} : This position contains an even number.")
+            print(
+                Fore.LIGHTMAGENTA_EX + f"{computer_number.index(hint_number) + 1} : This position contains an even number.")
             hint_list.remove(position)
         else:
-            print(Fore.LIGHTMAGENTA_EX + f"{computer_number.index(hint_number) + 1} : This position contains an odd number.")
+            print(
+                Fore.LIGHTMAGENTA_EX + f"{computer_number.index(hint_number) + 1} : This position contains an odd number.")
             hint_list.remove(position)
 
 
@@ -155,4 +177,5 @@ def print_user_input(user_input):
         print()
 
 
+# This function call starts the game
 get_game_info()

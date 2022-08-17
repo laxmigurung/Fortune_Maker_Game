@@ -22,10 +22,5 @@ def welcome():
                    """)
 
 
-def winner():
-    print(Fore.LIGHTMAGENTA_EX + "Hurray!!!! You won 3 million dollars.")
-    print(Fore.CYAN + "Congratulations!!")
-
-
 def good_bye():
     print(Fore.RED + "Thank you for playing!!!")
